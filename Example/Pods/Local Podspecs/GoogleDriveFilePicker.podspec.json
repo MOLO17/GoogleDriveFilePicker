@@ -1,0 +1,37 @@
+{
+  "name": "GoogleDriveFilePicker",
+  "version": "0.1.0",
+  "summary": "A short description of GoogleDriveFilePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fed933/GoogleDriveFilePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fed933": "federico.monti@molo17.com"
+  },
+  "source": {
+    "git": "https://github.com/fed933/GoogleDriveFilePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GoogleDriveFilePicker/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "GoogleAPIClientForREST/Drive": [
+      "~> 1.2.1"
+    ],
+    "GoogleSignIn": [
+
+    ],
+    "SDWebImage": [
+      "~> 4.0"
+    ]
+  }
+}

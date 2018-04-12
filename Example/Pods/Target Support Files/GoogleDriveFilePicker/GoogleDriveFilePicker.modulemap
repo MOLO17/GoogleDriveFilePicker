@@ -1,0 +1,6 @@
+framework module GoogleDriveFilePicker {
+  umbrella header "GoogleDriveFilePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

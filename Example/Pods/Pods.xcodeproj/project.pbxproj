@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C7C7437980316E9C555BA1C8D089CA /* Pods-GoogleDriveFilePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B0BCB172ACBED99DB36CB8C6E6C99 /* Pods-GoogleDriveFilePicker_Tests-dummy.m */; };
+		1D5B0DB44D9D1F6B2486E629B29B041D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		48BF8259089F7D83312D8421DE84061C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B0D66B0F92DE0E042284A1B26ADF30 /* ReplaceMe.swift */; };
+		6ED40ED220B67A50457D430C42ECC210 /* GoogleDriveFilePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC46E068ADA4620355A8BBB6C20D033 /* GoogleDriveFilePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1F99EB0E9A75972D3C99FCE878E142 /* Pods-GoogleDriveFilePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5192BEC0B42E9AC270FAD6CE5826E7BB /* Pods-GoogleDriveFilePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE623D9F66376ADE861B7753EBD9CA5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F72105FCFC03E332E4C78F9A2AE05D00 /* GoogleDriveFilePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69BE40CE3FC308936A4EB24ADD172B8 /* GoogleDriveFilePicker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80065E9AAC0332F5AA122898361FB20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0213E37A039DBC16BE15144822E3CB20;
+			remoteInfo = GoogleDriveFilePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1295734F08B99EFFEFE5FDF49577C8BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143B0BCB172ACBED99DB36CB8C6E6C99 /* Pods-GoogleDriveFilePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleDriveFilePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		2BB46F8A504116D9799B9CA6BFAFB28D /* GoogleDriveFilePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleDriveFilePicker.modulemap; sourceTree = "<group>"; };
+		31E4D606D2046C64770B6CD53B68006F /* GoogleDriveFilePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleDriveFilePicker.framework; path = GoogleDriveFilePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B0D66B0F92DE0E042284A1B26ADF30 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GoogleDriveFilePicker/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5192BEC0B42E9AC270FAD6CE5826E7BB /* Pods-GoogleDriveFilePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleDriveFilePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A0876F8D7F68C297AE4FE596B39BC2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F616F5F4EA8935F59CE518CA6459F38 /* Pods-GoogleDriveFilePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleDriveFilePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		718DDED8D73A0576A7C19E4FE07DFB08 /* Pods-GoogleDriveFilePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleDriveFilePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8651C72590B10E1ED4D7703273B34BE9 /* Pods-GoogleDriveFilePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleDriveFilePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B514B03B7CDB152B05ECA3707FE8E206 /* GoogleDriveFilePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleDriveFilePicker-prefix.pch"; sourceTree = "<group>"; };
+		BA07A3C5E1012B2CD0E5E750EF18ABEB /* Pods-GoogleDriveFilePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleDriveFilePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		BAA3C82F1BA88E01D7DB4AE590B9241C /* Pods-GoogleDriveFilePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleDriveFilePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE2B060F874B69B05D93B6EC33197FC9 /* Pods_GoogleDriveFilePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleDriveFilePicker_Tests.framework; path = "Pods-GoogleDriveFilePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69BE40CE3FC308936A4EB24ADD172B8 /* GoogleDriveFilePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleDriveFilePicker-dummy.m"; sourceTree = "<group>"; };
+		C6F468CAAC21E26DF948CE27B38A4F6F /* Pods-GoogleDriveFilePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleDriveFilePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C81D801AE80C16E2A8F4C8684E6E960A /* Pods-GoogleDriveFilePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleDriveFilePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ED5A6CEA4604DD5F54852D76A7100A80 /* GoogleDriveFilePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDriveFilePicker.xcconfig; sourceTree = "<group>"; };
+		FDC46E068ADA4620355A8BBB6C20D033 /* GoogleDriveFilePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleDriveFilePicker-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1895CD80120CE29EE7160FBCB3C9ED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5B0DB44D9D1F6B2486E629B29B041D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B8C282DED7BD557D6DA847EB684A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE623D9F66376ADE861B7753EBD9CA5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A227B6E0E32D9C5055112D39D9F095 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F93F3DE980200ABE00008BAE1D4F82A /* Pods-GoogleDriveFilePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		24298704DA28BC8BF2F752518D276F8B /* GoogleDriveFilePicker */ = {
+			isa = PBXGroup;
+			children = (
+				33B0D66B0F92DE0E042284A1B26ADF30 /* ReplaceMe.swift */,
+				AD9CFCAB90E7D492726E41D370CC8ADF /* Support Files */,
+			);
+			name = GoogleDriveFilePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4D04FDDE21049C47C8F8A71BDAFB05C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24298704DA28BC8BF2F752518D276F8B /* GoogleDriveFilePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F93F3DE980200ABE00008BAE1D4F82A /* Pods-GoogleDriveFilePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0876F8D7F68C297AE4FE596B39BC2E /* Info.plist */,
+				BA07A3C5E1012B2CD0E5E750EF18ABEB /* Pods-GoogleDriveFilePicker_Tests.modulemap */,
+				C6F468CAAC21E26DF948CE27B38A4F6F /* Pods-GoogleDriveFilePicker_Tests-acknowledgements.markdown */,
+				6F616F5F4EA8935F59CE518CA6459F38 /* Pods-GoogleDriveFilePicker_Tests-acknowledgements.plist */,
+				143B0BCB172ACBED99DB36CB8C6E6C99 /* Pods-GoogleDriveFilePicker_Tests-dummy.m */,
+				C81D801AE80C16E2A8F4C8684E6E960A /* Pods-GoogleDriveFilePicker_Tests-frameworks.sh */,
+				8651C72590B10E1ED4D7703273B34BE9 /* Pods-GoogleDriveFilePicker_Tests-resources.sh */,
+				5192BEC0B42E9AC270FAD6CE5826E7BB /* Pods-GoogleDriveFilePicker_Tests-umbrella.h */,
+				BAA3C82F1BA88E01D7DB4AE590B9241C /* Pods-GoogleDriveFilePicker_Tests.debug.xcconfig */,
+				718DDED8D73A0576A7C19E4FE07DFB08 /* Pods-GoogleDriveFilePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-GoogleDriveFilePicker_Tests";
+			path = "Target Support Files/Pods-GoogleDriveFilePicker_Tests";
+			sourceTree = "<group>";
+		};
+		6C2E7E9B49C4BC3D8C18F2204FD2BAD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31E4D606D2046C64770B6CD53B68006F /* GoogleDriveFilePicker.framework */,
+				BE2B060F874B69B05D93B6EC33197FC9 /* Pods_GoogleDriveFilePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4D04FDDE21049C47C8F8A71BDAFB05C1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6C2E7E9B49C4BC3D8C18F2204FD2BAD9 /* Products */,
+				21A227B6E0E32D9C5055112D39D9F095 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD9CFCAB90E7D492726E41D370CC8ADF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB46F8A504116D9799B9CA6BFAFB28D /* GoogleDriveFilePicker.modulemap */,
+				ED5A6CEA4604DD5F54852D76A7100A80 /* GoogleDriveFilePicker.xcconfig */,
+				C69BE40CE3FC308936A4EB24ADD172B8 /* GoogleDriveFilePicker-dummy.m */,
+				B514B03B7CDB152B05ECA3707FE8E206 /* GoogleDriveFilePicker-prefix.pch */,
+				FDC46E068ADA4620355A8BBB6C20D033 /* GoogleDriveFilePicker-umbrella.h */,
+				1295734F08B99EFFEFE5FDF49577C8BB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GoogleDriveFilePicker";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16B45E1B60958C7D86878C588C80ED32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1F99EB0E9A75972D3C99FCE878E142 /* Pods-GoogleDriveFilePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55DE0309E0B1E4F5148DBA0128E901F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED40ED220B67A50457D430C42ECC210 /* GoogleDriveFilePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0213E37A039DBC16BE15144822E3CB20 /* GoogleDriveFilePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C1D11E4A2517AFB4E1C38B98EA851D /* Build configuration list for PBXNativeTarget "GoogleDriveFilePicker" */;
+			buildPhases = (
+				65204727AF90FD2046A659CED3645B50 /* Sources */,
+				C5B8C282DED7BD557D6DA847EB684A4E /* Frameworks */,
+				A55DE0309E0B1E4F5148DBA0128E901F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleDriveFilePicker;
+			productName = GoogleDriveFilePicker;
+			productReference = 31E4D606D2046C64770B6CD53B68006F /* GoogleDriveFilePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		964566E72B0ACAB196670F49A83A9CBA /* Pods-GoogleDriveFilePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD8D096C7825C5B5BD9E5FAD234F4BD /* Build configuration list for PBXNativeTarget "Pods-GoogleDriveFilePicker_Tests" */;
+			buildPhases = (
+				FCA9943DACEF02AC33670166D6AD7464 /* Sources */,
+				1895CD80120CE29EE7160FBCB3C9ED6D /* Frameworks */,
+				16B45E1B60958C7D86878C588C80ED32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7751D9FBCF7948AE25700AA93B873629 /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleDriveFilePicker_Tests";
+			productName = "Pods-GoogleDriveFilePicker_Tests";
+			productReference = BE2B060F874B69B05D93B6EC33197FC9 /* Pods_GoogleDriveFilePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C2E7E9B49C4BC3D8C18F2204FD2BAD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0213E37A039DBC16BE15144822E3CB20 /* GoogleDriveFilePicker */,
+				964566E72B0ACAB196670F49A83A9CBA /* Pods-GoogleDriveFilePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65204727AF90FD2046A659CED3645B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72105FCFC03E332E4C78F9A2AE05D00 /* GoogleDriveFilePicker-dummy.m in Sources */,
+				48BF8259089F7D83312D8421DE84061C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA9943DACEF02AC33670166D6AD7464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C7C7437980316E9C555BA1C8D089CA /* Pods-GoogleDriveFilePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7751D9FBCF7948AE25700AA93B873629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleDriveFilePicker;
+			target = 0213E37A039DBC16BE15144822E3CB20 /* GoogleDriveFilePicker */;
+			targetProxy = F80065E9AAC0332F5AA122898361FB20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		863608D88F59D04638D5446A32AC0B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5A6CEA4604DD5F54852D76A7100A80 /* GoogleDriveFilePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleDriveFilePicker/GoogleDriveFilePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleDriveFilePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleDriveFilePicker/GoogleDriveFilePicker.modulemap";
+				PRODUCT_NAME = GoogleDriveFilePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFB146669E2B979F32F7CD4C217E74E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA3C82F1BA88E01D7DB4AE590B9241C /* Pods-GoogleDriveFilePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleDriveFilePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleDriveFilePicker_Tests/Pods-GoogleDriveFilePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleDriveFilePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D932CA46E9705CB1A791B7AF6F8DB851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5A6CEA4604DD5F54852D76A7100A80 /* GoogleDriveFilePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleDriveFilePicker/GoogleDriveFilePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleDriveFilePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleDriveFilePicker/GoogleDriveFilePicker.modulemap";
+				PRODUCT_NAME = GoogleDriveFilePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDE6155C83B33D93C297D57AA9FE3AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718DDED8D73A0576A7C19E4FE07DFB08 /* Pods-GoogleDriveFilePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleDriveFilePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleDriveFilePicker_Tests/Pods-GoogleDriveFilePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleDriveFilePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD8D096C7825C5B5BD9E5FAD234F4BD /* Build configuration list for PBXNativeTarget "Pods-GoogleDriveFilePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB146669E2B979F32F7CD4C217E74E5 /* Debug */,
+				DDE6155C83B33D93C297D57AA9FE3AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C1D11E4A2517AFB4E1C38B98EA851D /* Build configuration list for PBXNativeTarget "GoogleDriveFilePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D932CA46E9705CB1A791B7AF6F8DB851 /* Debug */,
+				863608D88F59D04638D5446A32AC0B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -37,6 +37,8 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'GoogleAPIClientForREST/Drive', '~> 1.2.1'
+  s.dependency 'GoogleSignIn'
+  s.dependency 'SDWebImage', '~> 4.0'
 end
