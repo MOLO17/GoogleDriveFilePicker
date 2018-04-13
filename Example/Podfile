@@ -1,7 +1,6 @@
 use_frameworks!
 target 'GoogleDriveFilePicker_Tests' do
-  pod 'GoogleDriveFilePicker', :path => '../'
-  
+  pod 'GoogleDriveFilePicker', :git => 'https://github.com/fed933/GoogleDriveFilePicker.git', :branch => "master"
   pod 'PureLayout'
   
 end
