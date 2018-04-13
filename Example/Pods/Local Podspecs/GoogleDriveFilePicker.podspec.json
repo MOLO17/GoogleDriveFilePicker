@@ -17,7 +17,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "GoogleDriveFilePicker/Classes/**/*",
   "frameworks": [

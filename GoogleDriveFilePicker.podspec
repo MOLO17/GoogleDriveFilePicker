@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'fed933' => 'federico.monti@molo17.com' }
   s.source           = { :git => 'https://github.com/fed933/GoogleDriveFilePicker.git', :branch => "master", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'GoogleDriveFilePicker/Classes/**/*'
   
