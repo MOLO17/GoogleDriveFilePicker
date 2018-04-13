@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   s.dependency 'GoogleAPIClientForREST/Drive', '~> 1.2.1'
   s.dependency 'GoogleSignIn'
   s.dependency 'SDWebImage', '~> 4.0'
-  s.dependency 'PureLayout'
+  s.dependency 'PureLayout', '~> 3.0.2'
   
   s.static_framework = true
 
