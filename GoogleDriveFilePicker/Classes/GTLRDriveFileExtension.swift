@@ -13,7 +13,7 @@ extension GTLRDrive_File {
         return mimeType == "application/vnd.google-apps.folder"
     }
     
-    func toDownloadURL() -> String? {
+    open func toDownloadURL() -> String? {
         if (self.identifier?.isEmpty)! {
             return nil
         }

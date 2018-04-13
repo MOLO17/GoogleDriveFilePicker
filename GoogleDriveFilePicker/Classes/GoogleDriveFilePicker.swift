@@ -9,17 +9,17 @@
 import GoogleAPIClientForREST
 import GoogleSignIn
 
-class GoogleDriveFilePicker: UINavigationController {
+open class GoogleDriveFilePicker: UINavigationController {
     var viewer: DriveFileViewer?
     
-    class func handle(_ url: URL?, _ sourceApp: String?, _ annotation: Any?) -> Bool {
+    open static func handle(_ url: URL?, _ sourceApp: String?, _ annotation: Any?) -> Bool {
         if GIDSignIn.sharedInstance().handle(url, sourceApplication: sourceApp, annotation: annotation) {
             return true
         }
         return false
     }
     
-    init() {
+    public init() {
         let viewer = DriveFileViewer()
         viewer.initController()
         super.init(rootViewController: viewer)
@@ -27,7 +27,7 @@ class GoogleDriveFilePicker: UINavigationController {
         self.viewer = viewer
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
     }
@@ -40,7 +40,7 @@ class GoogleDriveFilePicker: UINavigationController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
-    func pick(from vc: UIViewController?, withCompletion completion: @escaping (_ manager: DriveManager, _ file: GTLRDrive_File?) -> Void) {
+    open func pick(from vc: UIViewController?, withCompletion completion: @escaping (_ manager: DriveManager, _ file: GTLRDrive_File?) -> Void) {
         viewer?.completion = completion
         vc?.present(self, animated: true) {() -> Void in }
     }

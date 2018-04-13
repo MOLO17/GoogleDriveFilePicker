@@ -11,7 +11,7 @@ import GoogleSignIn
 
 private let kKeychainItemName = "Drive API"
 
-class DriveManager: NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
+open class DriveManager: NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
     typealias SignInCompletion = () -> Void
     
     private let scopes = [kGTLRAuthScopeDriveReadonly]
@@ -39,7 +39,7 @@ class DriveManager: NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
 
     }
     
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+    public func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         if (error) != nil {
             self.service.authorizer = nil
         } else {
@@ -49,9 +49,9 @@ class DriveManager: NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
         }
     }
     
-    func sign(_ signIn: GIDSignIn!, present viewController: UIViewController!) {}
+    public func sign(_ signIn: GIDSignIn!, present viewController: UIViewController!) {}
     
-    func sign(_ signIn: GIDSignIn!, dismiss viewController: UIViewController!) {}
+    public func sign(_ signIn: GIDSignIn!, dismiss viewController: UIViewController!) {}
     
     func forceSignIn(_ completion: @escaping () -> Void) {
         if self.service.authorizer == nil {
