@@ -22,13 +22,11 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/fed933/GoogleDriveFilePicker'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fed933' => 'federico.monti@molo17.com' }
-  s.source           = { :git => 'https://github.com/fed933/GoogleDriveFilePicker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/fed933/GoogleDriveFilePicker.git', :branch => "master", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'GoogleDriveFilePicker/Classes/**/*'
   
@@ -41,4 +39,9 @@ TODO: Add long description of the pod here.
   s.dependency 'GoogleAPIClientForREST/Drive', '~> 1.2.1'
   s.dependency 'GoogleSignIn'
   s.dependency 'SDWebImage', '~> 4.0'
+  s.dependency 'PureLayout'
+  
+  s.static_framework = true
+
+  s.swift_version = '4.0'
 end

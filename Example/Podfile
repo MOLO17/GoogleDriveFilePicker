@@ -2,5 +2,6 @@ use_frameworks!
 target 'GoogleDriveFilePicker_Tests' do
   pod 'GoogleDriveFilePicker', :path => '../'
   
+  pod 'PureLayout'
   
 end

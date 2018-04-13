@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/fed933/GoogleDriveFilePicker.git",
+    "branch": "master",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "GoogleDriveFilePicker/Classes/**/*",
   "frameworks": [
@@ -32,6 +33,11 @@
     ],
     "SDWebImage": [
       "~> 4.0"
+    ],
+    "PureLayout": [
+
     ]
-  }
+  },
+  "static_framework": true,
+  "swift_version": "4.0"
 }
