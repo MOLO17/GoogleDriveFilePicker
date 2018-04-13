@@ -7,7 +7,7 @@ PODS:
   - GoogleDriveFilePicker (0.1.0):
     - GoogleAPIClientForREST/Drive (~> 1.2.1)
     - GoogleSignIn
-    - PureLayout
+    - PureLayout (~> 3.0.2)
     - SDWebImage (~> 4.0)
   - GoogleSignIn (4.1.2):
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
@@ -35,8 +35,8 @@ PODS:
   - SDWebImage/Core (4.3.3)
 
 DEPENDENCIES:
-  - GoogleDriveFilePicker (from `https://github.com/fed933/GoogleDriveFilePicker.git`, branch `master`)
-  - PureLayout
+  - GoogleDriveFilePicker (from `../`)
+  - PureLayout (~> 3.0.2)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -50,17 +50,11 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   GoogleDriveFilePicker:
-    :branch: master
-    :git: https://github.com/fed933/GoogleDriveFilePicker.git
-
-CHECKOUT OPTIONS:
-  GoogleDriveFilePicker:
-    :commit: 46036fab44dd1a36829089e9b3b2aa2df868aba8
-    :git: https://github.com/fed933/GoogleDriveFilePicker.git
+    :path: "../"
 
 SPEC CHECKSUMS:
   GoogleAPIClientForREST: a8b95a252014ce2e618df6b75dc72eca2c00b4af
-  GoogleDriveFilePicker: c29713b5ee0cde2e22613b65812691da871943ce
+  GoogleDriveFilePicker: 1300898047282448087a0cecb0b49adccb23e131
   GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
   GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
@@ -68,6 +62,6 @@ SPEC CHECKSUMS:
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
-PODFILE CHECKSUM: 4eec38e0e8bdc33876be958bf0457f141e877df7
+PODFILE CHECKSUM: b0553793454d0771ca1c5ee7573012628a7cdff0
 
 COCOAPODS: 1.5.0
